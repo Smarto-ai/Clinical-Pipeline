@@ -1,4 +1,4 @@
-%%%% [S1-Net]
+%%%% [S1-Net] For EBT
 function lgraph = fn_S1_Net() 
 
 lgraph = layerGraph();
@@ -549,3 +549,4 @@ lgraph = connectLayers(lgraph,"d1_relu_4","d1_cat/in4");
 lgraph = connectLayers(lgraph,"dec_tconv_1","dec_crop_1/in");
 
 end
+
