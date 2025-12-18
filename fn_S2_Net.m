@@ -1,4 +1,4 @@
-%%%% [S2-Net]
+%%%% [S2-Net] For PBT
 
 function lgraph = fn_S2_Net()
 
@@ -510,5 +510,6 @@ lgraph = connectLayers(lgraph,"dec3_relu_1","dec3_crop_1/ref");
 lgraph = connectLayers(lgraph,"dec3_relu_1","dec3_cat_1/in1");
 lgraph = connectLayers(lgraph,"dec3_crop_1","dec3_cat_1/in2");
 lgraph = connectLayers(lgraph,"dec_tconv_1","dec_crop_1/in");
+
 
 end
