@@ -1,4 +1,4 @@
-%%%% [C-Net]
+%%%% [C-Net] Classification
 function lgraph = fn_C_Net() 
 
 lgraph = layerGraph();
@@ -434,3 +434,4 @@ lgraph = connectLayers(lgraph,"e5_relu_4","e5_cat/in4");
 lgraph = connectLayers(lgraph,"e5_relu_5","c_mul_1/in1");
 
 end
+
